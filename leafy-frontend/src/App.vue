@@ -17,7 +17,7 @@
     <BasicPopup :message="popup.message" :status="popup.status" :visible="popup.visible" @close="closePopup" />
   </div>
 </template>
-
+ 
 <script>
 import BasicPopup from "@/components/BasicPopup.vue";
 import NavBar from '@/components/NavBar.vue';
